@@ -1,4 +1,4 @@
-# Legends of Valor
+# Harry Potter World
 
 ---
 
@@ -9,7 +9,8 @@ Legends of Valor is a **Harry Potter-themed RPG** game built using **Java** and 
 
 ---
 
-
+## Game Experience 
+![Legends](https://github.com/user-attachments/assets/6c6b3f9a-5458-4195-b359-1ff6909e3cde)
 
 ## Game Workflow
 
