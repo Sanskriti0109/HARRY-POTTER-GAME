@@ -1,4 +1,4 @@
-# Harry Potter World
+# Harry Potter Game
 
 ---
 
