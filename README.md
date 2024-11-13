@@ -3,7 +3,7 @@
 ---
 
 ## Background
-Legends of Valor is a **Harry Potter-themed RPG** game built using **Java** and **object-oriented principles**. This terminal-based game showcases **design patterns**, **scalability**, and **extensibility** through 46 well-organized classes. It highlights teamwork and code efficiency, allowing for an immersive RPG experience.
+This is a **Harry Potter-themed RPG** game built using **Java** and **object-oriented principles**. This terminal-based game showcases **design patterns**, **scalability**, and **extensibility** through 46 well-organized classes. It highlights teamwork and code efficiency, allowing for an immersive RPG experience.
 
 **Project Developer:** Sanskriti Saxena  
 
