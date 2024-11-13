@@ -84,3 +84,34 @@ This is a **Harry Potter-themed RPG** game built using **Java** and **object-ori
 
 1. Place all 46 classes into a single folder.
 2. Run the codes.
+
+## Things Worth Noting
+
+### 1. Rules about endding the game
+
+- If anyone touches her/his opponent's nexus, the game ends.
+- If all heroes are dead, the game ends.
+- If any hero chooses to quit, the game ends.
+
+### 2. Rules about heroes statistics after each fight
+
+- After a fight, if the hero survives, (s)he will regain 10% of their HP and 10% of her/his mana right.
+- After a fight,  if the hero survives, (s)he will  receive **100 * hero_level**  money bonus and **5 * hero_level** EXP bonus.
+- After a fight, if not all heroes are dead, the HP and mana of all **DEAD** heroes will respawn in their corresponding nexuses and be reset to **half** of their initial values, but they will receive no money bonus or EXP bonus. This is done right after a hero is dead.
+
+### 3. Rules about Level Up
+
+- The heroes can level up if they have accumulated **10 * hero_level** EXP bonus.
+- Therefore, a hero can level up if (s)he can survive for **two** complete fights (because **5 * hero_level** EXP bonus for one successful fight).
+- The **MAXIMUM LEVEL** of any hero is **10**. Therefore, once a hero reaches level 10, (s)he cannot level up anymore.
+
+### 4. Rules about the Buffs of Different Types of Cells
+
+- The printing result of the heroes' stats will **not** change regardless of which types of cell are the heroes currently in (i.e. the **printTeamMembers()** method will display the **same result** no matter the team members are in **Plain Cells** or **Bush Cells**).
+- However, the buff is functioning **implicitly**, in other words, when the hero is fighting a monster, her/his corresponding stats will be enhanced. It is just that it would not show when you print the hero's stats.
+
+### 5. About Who Fights First
+
+- Typically, it is the hero who gets the first turn to fight if a monster is within range.
+- However, once the monster is within range to fight and the hero does not choose to fight (e.g. move to right instead), the monster will have the opportunity to attack the hero.
+
